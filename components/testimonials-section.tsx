@@ -10,7 +10,7 @@ const testimonials = [
     id: 1,
     name: "Sarah Johnson",
     role: "Marketing Director, TechCorp",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
     quote:
       "Gilberto transformou nossa landing page e aumentou nossa taxa de conversão em 45%. Seu cuidado com os detalhes e foco na experiência do usuário fez toda a diferença.",
   },
@@ -18,7 +18,7 @@ const testimonials = [
     id: 2,
     name: "Michael Chen",
     role: "Founder, FitLife App",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
     quote:
       "Trabalhe com Gilberto foi uma experiência incrível para o nosso startup. Ele criou uma landing page que comunicou perfeitamente nossa proposta de valor e ajudou a adquirir nossos primeiros 1,000 usuários.",
   },
@@ -26,7 +26,7 @@ const testimonials = [
     id: 3,
     name: "Emma Rodriguez",
     role: "E-commerce Manager, StyleShop",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
     quote:
       "O redesign da página de produto por Gilberto aumentou as vendas em 30%. Seu entendimento dos princípios de otimização de conversão é excepcional.",
   },
@@ -34,7 +34,7 @@ const testimonials = [
     id: 4,
     name: "David Wilson",
     role: "CEO, PropertyFinder",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg",
     quote:
       "O trabalho de Gilberto na nossa plataforma imobiliária melhorou a engajamento do usuário. Seu enfoque em design responsivo garante uma experiência perfeita em qualquer dispositivo.",
   },
@@ -89,7 +89,7 @@ export default function TestimonialsSection() {
                           <Quote className="h-8 w-8 text-red-500 opacity-50" />
                         </div>
                         <img
-                          src={testimonial.image || "/placeholder.svg"}
+                          src={testimonial.image}
                           alt={testimonial.name}
                           className="h-20 w-20 rounded-full object-cover border-2 border-red-500"
                         />

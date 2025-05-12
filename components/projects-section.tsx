@@ -1,5 +1,3 @@
-"use client"
-
 import { useState } from "react"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
@@ -12,7 +10,7 @@ const projects = [
     id: 1,
     title: "TechCorp Landing Page",
     description: "Uma landing page de alta conversão para uma empresa de SaaS.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "https://images.pexels.com/photos/3182773/pexels-photo-3182773.jpeg",
     techStack: ["React", "Tailwind CSS", "Framer Motion"],
     liveUrl: "#",
     codeUrl: "#",
@@ -21,7 +19,7 @@ const projects = [
     id: 2,
     title: "Fitness App Homepage",
     description: "Landing page para uma aplicação de fitness com modelo de assinatura",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg",
     techStack: ["Next.js", "Tailwind CSS", "TypeScript"],
     liveUrl: "#",
     codeUrl: "#",
@@ -30,7 +28,7 @@ const projects = [
     id: 3,
     title: "E-commerce Product Page",
     description: "Página de produto de alta conversão para uma loja de e-commerce",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "https://images.pexels.com/photos/264547/pexels-photo-264547.jpeg",
     techStack: ["React", "CSS Modules", "Redux"],
     liveUrl: "#",
     codeUrl: "#",
@@ -39,7 +37,7 @@ const projects = [
     id: 4,
     title: "Real Estate Listing",
     description: "Página de listagem de imóveis com opções avançadas de filtragem",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg",
     techStack: ["Next.js", "Tailwind CSS", "Supabase"],
     liveUrl: "#",
     codeUrl: "#",
@@ -48,7 +46,7 @@ const projects = [
     id: 5,
     title: "Crypto Dashboard",
     description: "Painel interativo para rastreamento de criptomoedas",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg",
     techStack: ["React", "Chart.js", "Styled Components"],
     liveUrl: "#",
     codeUrl: "#",
@@ -57,7 +55,7 @@ const projects = [
     id: 6,
     title: "Travel Agency Homepage",
     description: "Landing page visualmente impressionante para uma agência de viagens",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "https://images.pexels.com/photos/2007401/pexels-photo-2007401.jpeg",
     techStack: ["Next.js", "GSAP", "Tailwind CSS"],
     liveUrl: "#",
     codeUrl: "#",
